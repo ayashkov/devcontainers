@@ -1,0 +1,10 @@
+{
+  "id": "openjdk",
+  "version": "25.0.2+10",
+  "name": "OpenJDK",
+  "description": "OpenJDK feature mock up",
+  "containerEnv": {
+    "JAVA_HOME": "/usr/local/feature/openjdk",
+    "PATH": "/usr/local/feature/openjdk/bin:${PATH}"
+  }
+}
