@@ -1,0 +1,21 @@
+{
+  "name": "devcontainers",
+  "private": true,
+  "version": "1.0.0-dev.0",
+  "description": "Development Containers Study",
+  "homepage": "https://github.com/ayashkov/devcontainers#readme",
+  "bugs": {
+    "url": "https://github.com/ayashkov/devcontainers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayashkov/devcontainers.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@devcontainers/cli": "^0.82.0"
+  }
+}
