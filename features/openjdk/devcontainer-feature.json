@@ -1,6 +1,6 @@
 {
   "id": "openjdk",
-  "version": "25.0.2+10",
+  "version": "25.0.2",
   "name": "OpenJDK",
   "description": "OpenJDK feature mock up",
   "containerEnv": {
