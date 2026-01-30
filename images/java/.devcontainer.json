@@ -1,0 +1,9 @@
+{
+  "name": "java",
+  "image": "ubuntu:noble",
+  "features": {
+    "ghcr.io/ayashkov/features/openjdk:25": {},
+    "ghcr.io/ayashkov/features/maven:3.9": {},
+    "ghcr.io/ayashkov/features/gradle:9.3": {}
+  }
+}
