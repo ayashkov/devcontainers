@@ -1,0 +1,13 @@
+{
+  "id": "maven",
+  "version": "3.9.12",
+  "name": "Maven",
+  "description": "Maven feature mock up",
+  "containerEnv": {
+    "MAVEN_HOME": "/usr/local/feature/maven",
+    "PATH": "$MAVEN_HOME/bin:$PATH"
+  },
+  "installsAfter": [
+    "ghcr.io/ayashkov/features/openjdk"
+  ]
+}

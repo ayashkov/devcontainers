@@ -2,21 +2,22 @@
 
 set -eu
 
-VERSION=25.0.2_10
+VERSION=3.9.12
 
 if [[ "$(id -u)" != 0 ]]; then
     echo -e 'Script must be run as root. Use sudo, su, or add "USER root" to your Dockerfile before running this script.'
     exit 1
 fi
 
-echo "Installing OpenJDK $VERSION to $JAVA_HOME"
+echo "Installing Maven $VERSION to $MAVEN_HOME"
 
-mkdir -p $JAVA_HOME/bin
-cat >$JAVA_HOME/bin/java <<EOF
+mkdir -p $MAVEN_HOME
+mkdir -p $MAVEN_HOME/bin
+cat >$MAVEN_HOME/bin/mvn <<EOF
 #!/usr/bin/env bash
 
-echo "Fake OpenJDK $VERSION"
+echo "Fake Maven $VERSION"
 EOF
-chmod 555 $JAVA_HOME/bin/java
+chmod 555 $MAVEN_HOME/bin/mvn
 
 echo "Done!"
