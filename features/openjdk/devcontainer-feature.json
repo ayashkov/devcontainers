@@ -5,6 +5,6 @@
   "description": "OpenJDK feature mock up",
   "containerEnv": {
     "JAVA_HOME": "/usr/local/feature/openjdk",
-    "PATH": "/usr/local/feature/openjdk/bin:${PATH}"
+    "PATH": "$JAVA_HOME/bin:$PATH"
   }
 }
