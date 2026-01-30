@@ -1,6 +1,6 @@
 {
   "id": "gradle",
-  "version": "9.3.1",
+  "version": "9.3.1-1",
   "name": "Gradle",
   "description": "Gradle feature mock up",
   "containerEnv": {
