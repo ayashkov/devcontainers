@@ -1,0 +1,13 @@
+{
+  "id": "gradle",
+  "version": "9.3.1",
+  "name": "Gradle",
+  "description": "Gradle feature mock up",
+  "containerEnv": {
+    "GRADLE_HOME": "/usr/local/feature/gradle",
+    "PATH": "$GRADLE_HOME/bin:$PATH"
+  },
+  "installsAfter": [
+    "ghcr.io/ayashkov/features/openjdk"
+  ]
+}
